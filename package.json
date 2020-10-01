@@ -1,14 +1,18 @@
 {
-  "name": "onlinechat",
+  "name": "online-chat",
   "version": "1.0.0",
-  "description": "",
+  "description": "Example of Real-time chat built on Socket.io and Node.js",
   "main": "index.js",
   "scripts": {
     "start": "babel-node ./src",
     "dev": "nodemon --exec babel-node ./src"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["online chat", "online", "real time", "socket.io", "babel", "nodejs"],
+  "author": "sammwy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sammwyy/online-chat.git"
+  },
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.1.5",
